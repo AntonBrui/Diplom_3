@@ -1,0 +1,57 @@
+{
+  "uid" : "7c12903dc86cc113",
+  "name" : "redirectToConstructorPageWithLogo",
+  "historyId" : "RedirectTest:RedirectTest#redirectToConstructorPageWithLogo",
+  "time" : {
+    "duration" : 7546
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c1921ea164a3c2c8",
+      "name" : "System out",
+      "source" : "c1921ea164a3c2c8.txt",
+      "type" : "text/plain",
+      "size" : 258
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "RedirectTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RedirectTest"
+  }, {
+    "name" : "package",
+    "value" : "RedirectTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c12903dc86cc113.json",
+  "parameterValues" : [ ]
+}

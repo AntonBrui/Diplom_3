@@ -1,0 +1,57 @@
+{
+  "uid" : "f07027301bd26dcc",
+  "name" : "redirectToFillingsSection",
+  "historyId" : "ConstructorRedirectTest:ConstructorRedirectTest#redirectToFillingsSection",
+  "time" : {
+    "duration" : 3844
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb0b6d657324bd36",
+      "name" : "System out",
+      "source" : "fb0b6d657324bd36.txt",
+      "type" : "text/plain",
+      "size" : 268
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "ConstructorRedirectTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ConstructorRedirectTest"
+  }, {
+    "name" : "package",
+    "value" : "ConstructorRedirectTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f07027301bd26dcc.json",
+  "parameterValues" : [ ]
+}
