@@ -1,0 +1,105 @@
+[ {
+  "uid" : "4a1e707fc9cfcdb5",
+  "name" : "signInWithUserProfileButtonOnHomePage",
+  "time" : {
+    "duration" : 5400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f07027301bd26dcc",
+  "name" : "redirectToFillingsSection",
+  "time" : {
+    "duration" : 3844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6df99216019f635",
+  "name" : "redirectToUserProfile",
+  "time" : {
+    "duration" : 5869
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5c3e5d34a211dfb",
+  "name" : "redirectToUserProfile",
+  "time" : {
+    "duration" : 5778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc0d194b17778433",
+  "name" : "redirectToRollsSection",
+  "time" : {
+    "duration" : 3158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c12903dc86cc113",
+  "name" : "redirectToConstructorPageWithLogo",
+  "time" : {
+    "duration" : 7546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8e23380dff794b8",
+  "name" : "redirectToSoucesSection",
+  "time" : {
+    "duration" : 3477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ed8b6a4d82bec08",
+  "name" : "signInWithForgotPasswordForm",
+  "time" : {
+    "duration" : 4487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8483861485d204e8",
+  "name" : "signUpUserWithValidData",
+  "time" : {
+    "duration" : 5164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "201739e55716e94f",
+  "name" : "signInWithSignInButtonOnHomePage",
+  "time" : {
+    "duration" : 3853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e837c3b4ba9ad3e",
+  "name" : "redirectToConstructorPageWithConstructorButton",
+  "time" : {
+    "duration" : 5716
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c3518f78c82cd86",
+  "name" : "signUpUserWithInvalidPassword",
+  "time" : {
+    "duration" : 3426
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74dfb8f211edf7dc",
+  "name" : "signInWithRegisterForm",
+  "time" : {
+    "duration" : 3749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

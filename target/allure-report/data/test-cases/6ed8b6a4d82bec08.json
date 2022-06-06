@@ -1,0 +1,57 @@
+{
+  "uid" : "6ed8b6a4d82bec08",
+  "name" : "signInWithForgotPasswordForm",
+  "historyId" : "SignInTest:SignInTest#signInWithForgotPasswordForm",
+  "time" : {
+    "duration" : 4487
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bcb6e301af976e3e",
+      "name" : "System out",
+      "source" : "bcb6e301af976e3e.txt",
+      "type" : "text/plain",
+      "size" : 255
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "SignInTest"
+  }, {
+    "name" : "testClass",
+    "value" : "SignInTest"
+  }, {
+    "name" : "package",
+    "value" : "SignInTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ed8b6a4d82bec08.json",
+  "parameterValues" : [ ]
+}

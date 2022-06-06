@@ -1,0 +1,57 @@
+{
+  "uid" : "d5c3e5d34a211dfb",
+  "name" : "redirectToUserProfile",
+  "historyId" : "RedirectTest:RedirectTest#redirectToUserProfile",
+  "time" : {
+    "duration" : 5778
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c1921ea164a3c2c8",
+      "name" : "System out",
+      "source" : "c1921ea164a3c2c8.txt",
+      "type" : "text/plain",
+      "size" : 258
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "RedirectTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RedirectTest"
+  }, {
+    "name" : "package",
+    "value" : "RedirectTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5c3e5d34a211dfb.json",
+  "parameterValues" : [ ]
+}

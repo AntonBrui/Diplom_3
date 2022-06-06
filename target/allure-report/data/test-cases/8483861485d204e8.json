@@ -1,0 +1,57 @@
+{
+  "uid" : "8483861485d204e8",
+  "name" : "signUpUserWithValidData",
+  "historyId" : "SignUpTest:SignUpTest#signUpUserWithValidData",
+  "time" : {
+    "duration" : 5164
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "35918553f5cc7cae",
+      "name" : "System out",
+      "source" : "35918553f5cc7cae.txt",
+      "type" : "text/plain",
+      "size" : 255
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "SignUpTest"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUpTest"
+  }, {
+    "name" : "package",
+    "value" : "SignUpTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8483861485d204e8.json",
+  "parameterValues" : [ ]
+}

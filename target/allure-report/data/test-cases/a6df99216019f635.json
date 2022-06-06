@@ -1,0 +1,57 @@
+{
+  "uid" : "a6df99216019f635",
+  "name" : "redirectToUserProfile",
+  "historyId" : "LogOutTest:LogOutTest#redirectToUserProfile",
+  "time" : {
+    "duration" : 5869
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69fbb2219fcad27",
+      "name" : "System out",
+      "source" : "69fbb2219fcad27.txt",
+      "type" : "text/plain",
+      "size" : 255
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "LogOutTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LogOutTest"
+  }, {
+    "name" : "package",
+    "value" : "LogOutTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6df99216019f635.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "201739e55716e94f",
+  "name" : "signInWithSignInButtonOnHomePage",
+  "historyId" : "SignInTest:SignInTest#signInWithSignInButtonOnHomePage",
+  "time" : {
+    "duration" : 3853
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bcb6e301af976e3e",
+      "name" : "System out",
+      "source" : "bcb6e301af976e3e.txt",
+      "type" : "text/plain",
+      "size" : 255
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "SignInTest"
+  }, {
+    "name" : "testClass",
+    "value" : "SignInTest"
+  }, {
+    "name" : "package",
+    "value" : "SignInTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "201739e55716e94f.json",
+  "parameterValues" : [ ]
+}
