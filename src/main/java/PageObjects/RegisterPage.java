@@ -9,7 +9,11 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class RegisterPage {
 
-    public final String REGISTER_URL = "https://stellarburgers.nomoreparties.site/register";
+    private final String REGISTER_URL = "https://stellarburgers.nomoreparties.site/register";
+
+    public String getREGISTER_URL() {
+        return REGISTER_URL;
+    }
 
     //Поле "Имя"
     @FindBy(how = How.XPATH, using = ".//input[@name='name']")
@@ -42,7 +46,7 @@ public class RegisterPage {
 
     public void setValidPassword() {$(passwordInput).sendKeys(User.getPassword());}
 
-    public void setInvalidPassword() {$(passwordInput).sendKeys("123");}
+    public void setInvalidPassword() {$(passwordInput).sendKeys(User.getInvalidPassword());}
 
     public void signUpButtonClick() {signUpButton.click();}
 

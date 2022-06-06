@@ -15,15 +15,14 @@ import static com.codeborne.selenide.Selenide.*;
 public class LogOutTest {
     private HomePage homePage;
     private RegisterPage registerPage;
-    private UserProfilePage userProfilePage;
 
     @Before
     public void setup(){
         Configuration.startMaximized = true;
         homePage = new HomePage();
         registerPage = new RegisterPage();
-        User user = User.getRandom();
-        RegisterPage objRegisterPage = open(registerPage.REGISTER_URL, RegisterPage.class);
+        User.getRandom();
+        RegisterPage objRegisterPage = open(registerPage.getREGISTER_URL(), RegisterPage.class);
         LoginPage objLoginPage = page(LoginPage.class);
         objRegisterPage.setName();
         objRegisterPage.setEmail();
@@ -44,7 +43,7 @@ public class LogOutTest {
     @Test
     @DisplayName("Check Logout")
     public void redirectToUserProfile(){
-        HomePage objHomePage = open(homePage.BASE_URL, HomePage.class);
+        HomePage objHomePage = open(homePage.getBASE_URL(), HomePage.class);
         UserProfilePage objUserProfilePage = page(UserProfilePage.class);
         LoginPage objLoginPage = page(LoginPage.class);
         objHomePage.userProfileButtonClick();

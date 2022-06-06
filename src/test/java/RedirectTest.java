@@ -13,7 +13,6 @@ public class RedirectTest {
 
     private HomePage homePage;
     private RegisterPage registerPage;
-    private UserProfilePage userProfilePage;
 
     @Before
     public void setup(){
@@ -21,7 +20,7 @@ public class RedirectTest {
         homePage = new HomePage();
         registerPage = new RegisterPage();
         User user = User.getRandom();
-        RegisterPage objRegisterPage = open(registerPage.REGISTER_URL, RegisterPage.class);
+        RegisterPage objRegisterPage = open(registerPage.getREGISTER_URL(), RegisterPage.class);
         LoginPage objLoginPage = page(LoginPage.class);
         objRegisterPage.setName();
         objRegisterPage.setEmail();
@@ -42,7 +41,7 @@ public class RedirectTest {
     @Test
     @DisplayName("Check redirect to User Profile")
     public void redirectToUserProfile(){
-        HomePage objHomePage = open(homePage.BASE_URL, HomePage.class);
+        HomePage objHomePage = open(homePage.getBASE_URL(), HomePage.class);
         UserProfilePage objUserProfilePage = page(UserProfilePage.class);
         objHomePage.userProfileButtonClick();
         objUserProfilePage.logOutButton.shouldBe(visible);
@@ -51,7 +50,6 @@ public class RedirectTest {
     @Test
     @DisplayName("Check redirect to Constructor page from User Profile by clicking 'Конструктор' button")
     public void redirectToConstructorPageWithConstructorButton(){
-        userProfilePage = new UserProfilePage();
         UserProfilePage objUserProfilePage = page(UserProfilePage.class);
         HomePage objHomePage = page(HomePage.class);
         objHomePage.userProfileButtonClick();
@@ -62,7 +60,6 @@ public class RedirectTest {
     @Test
     @DisplayName("Check redirect to Constructor page from User Profile by clicking logo")
     public void redirectToConstructorPageWithLogo(){
-        userProfilePage = new UserProfilePage();
         UserProfilePage objUserProfilePage = page(UserProfilePage.class);
         HomePage objHomePage = page(HomePage.class);
         objHomePage.userProfileButtonClick();

@@ -6,7 +6,11 @@ import org.openqa.selenium.support.How;
 
 public class HomePage {
 
-    public final String BASE_URL = "https://stellarburgers.nomoreparties.site/";
+    private final String BASE_URL = "https://stellarburgers.nomoreparties.site/";
+
+    public String getBASE_URL() {
+        return BASE_URL;
+    }
 
     //Кнопка "Личный кабинет"
     @FindBy(how = How.XPATH, using = ".//a/p[text()='Личный Кабинет']")

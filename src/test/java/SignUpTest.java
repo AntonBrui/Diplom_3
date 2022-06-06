@@ -20,7 +20,7 @@ public class SignUpTest {
     public void setup(){
         Configuration.startMaximized = true;
         homePage = new HomePage();
-        User user = User.getRandom();
+        User.getRandom();
         }
 
     @After
@@ -31,7 +31,7 @@ public class SignUpTest {
     @Test
     @DisplayName("Register user with valid data")
     public void signUpUserWithValidData(){
-        HomePage objHomePage = open(homePage.BASE_URL, HomePage.class);
+        HomePage objHomePage = open(homePage.getBASE_URL(), HomePage.class);
         LoginPage objLoginPage = page(LoginPage.class);
         RegisterPage objRegisterPage = page(RegisterPage.class);
         objHomePage.signInButtonClick();
@@ -47,7 +47,7 @@ public class SignUpTest {
     @Test
     @DisplayName("Register user with invalid password")
     public void signUpUserWithInvalidPassword(){
-        HomePage objHomePage = open(homePage.BASE_URL, HomePage.class);
+        HomePage objHomePage = open(homePage.getBASE_URL(), HomePage.class);
         LoginPage objLoginPage = page(LoginPage.class);
         RegisterPage objRegisterPage = page(RegisterPage.class);
         objHomePage.signInButtonClick();

@@ -4,6 +4,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 
 public class User {
 
+    private static String invalidPassword = "123";
     private static String name;
     private static String email;
     private static String password;
@@ -32,4 +33,6 @@ public class User {
     public static String getPassword() {
         return password;
     }
+
+    public static String getInvalidPassword() {return invalidPassword;}
 }

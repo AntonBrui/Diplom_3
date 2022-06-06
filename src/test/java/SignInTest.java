@@ -24,8 +24,8 @@ public class SignInTest {
         homePage = new HomePage();
         registerPage = new RegisterPage();
         forgotPasswordPage = new ForgotPasswordPage();
-        User user = User.getRandom();
-        RegisterPage objRegisterPage = open(registerPage.REGISTER_URL, RegisterPage.class);
+        User.getRandom();
+        RegisterPage objRegisterPage = open(registerPage.getREGISTER_URL(), RegisterPage.class);
         objRegisterPage.setName();
         objRegisterPage.setEmail();
         objRegisterPage.setValidPassword();
@@ -40,7 +40,7 @@ public class SignInTest {
     @Test
     @DisplayName("SignIn by clicking 'Войти в аккаунт' button on Home page")
     public void signInWithSignInButtonOnHomePage(){
-        HomePage objHomePage = open(homePage.BASE_URL, HomePage.class);
+        HomePage objHomePage = open(homePage.getBASE_URL(), HomePage.class);
         LoginPage objLoginPage = page(LoginPage.class);
         objHomePage.signInButtonClick();
         objLoginPage.setEmail();
@@ -52,7 +52,7 @@ public class SignInTest {
     @Test
     @DisplayName("SignIn by clicking 'Личный кабинет' button on Home page")
     public void signInWithUserProfileButtonOnHomePage(){
-        HomePage objHomePage = open(homePage.BASE_URL, HomePage.class);
+        HomePage objHomePage = open(homePage.getBASE_URL(), HomePage.class);
         LoginPage objLoginPage = page(LoginPage.class);
         objHomePage.userProfileButtonClick();
         objLoginPage.setEmail();
@@ -65,7 +65,7 @@ public class SignInTest {
     @Test
     @DisplayName("SignIn by register page")
     public void signInWithRegisterForm(){
-        RegisterPage objRegisterPage = open(registerPage.REGISTER_URL, RegisterPage.class);
+        RegisterPage objRegisterPage = open(registerPage.getREGISTER_URL(), RegisterPage.class);
         HomePage objHomePage = page(HomePage.class);
         LoginPage objLoginPage = page(LoginPage.class);
         objRegisterPage.signInButtonClick();

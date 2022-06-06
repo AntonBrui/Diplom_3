@@ -25,9 +25,9 @@ public class ConstructorRedirectTest {
     }
 
     @Test
-    @DisplayName("Redirect to the sauces section")
+    @DisplayName("Redirect to the fillings section")
     public void redirectToFillingsSection(){
-        HomePage objHomePage = open(homePage.BASE_URL, HomePage.class);
+        HomePage objHomePage = open(homePage.getBASE_URL(), HomePage.class);
         objHomePage.fillingsTabButtonClick();
         objHomePage.fillingsTabButton.shouldHave(cssValue("color", "rgba(255, 255, 255, 1)"));
     }
@@ -35,15 +35,15 @@ public class ConstructorRedirectTest {
     @Test
     @DisplayName("Redirect to the sauces section")
     public void redirectToSoucesSection(){
-        HomePage objHomePage = open(homePage.BASE_URL, HomePage.class);
+        HomePage objHomePage = open(homePage.getBASE_URL(), HomePage.class);
         objHomePage.saucesTabButtonClick();
         objHomePage.saucesTabButton.shouldHave(cssValue("color", "rgba(255, 255, 255, 1)"));
     }
 
     @Test
-    @DisplayName("Redirect to the sauces section")
+    @DisplayName("Redirect to the rolls section")
     public void redirectToRollsSection(){
-        HomePage objHomePage = open(homePage.BASE_URL, HomePage.class);
+        HomePage objHomePage = open(homePage.getBASE_URL(), HomePage.class);
         objHomePage.saucesTabButtonClick();
         objHomePage.rollsTabButtonClick();
         objHomePage.rollsTabButton.shouldHave(cssValue("color", "rgba(255, 255, 255, 1)"));
