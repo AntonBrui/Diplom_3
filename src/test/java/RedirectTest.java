@@ -19,7 +19,7 @@ public class RedirectTest {
         Configuration.startMaximized = true;
         homePage = new HomePage();
         registerPage = new RegisterPage();
-        User user = User.getRandom();
+        User.getRandom();
         RegisterPage objRegisterPage = open(registerPage.getREGISTER_URL(), RegisterPage.class);
         LoginPage objLoginPage = page(LoginPage.class);
         objRegisterPage.setName();
